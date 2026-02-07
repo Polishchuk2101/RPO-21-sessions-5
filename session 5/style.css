@@ -1,0 +1,54 @@
+.box-relative{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    position:relative;
+    top: 100px;
+    left: 100px;
+ 
+}
+.box{
+     width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: relative;
+    z-index: 100px;
+  
+}
+.parent{
+    position: absolute;
+     width: 450px;
+    height: 450px;
+    border: 2px solid black;
+    top: 200px;
+}
+body{
+    height: 2000px;
+    width: 4000px;
+}
+.box-fixed{
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 100px;
+}
+.box-sticky{
+    position: sticky;
+    top: 0;
+    height: 50px;
+    background-color: palegoldenrod;
+}
+.box-sticky2{
+     position: sticky;
+    top: 0;
+    height: 50px;
+    background-color: lavender;
+}
+
+.box2{
+
+    height: 2000px;
+}
